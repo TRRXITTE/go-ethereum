@@ -517,10 +517,17 @@ func DefaultKilnGenesisBlock() *Genesis {
     return g
 }
 
+
 // DefaultCustomPoWGenesisBlock returns the genesis block for the custom PoW fork.
 func DefaultCustomPoWGenesisBlock() *Genesis {
+    // Initialize the big.Int for the balance
+    balance, ok := new(big.Int).SetString("105000000000000000000000000", 10)
+    if !ok {
+        panic("Invalid balance string for genesis block")
+    }
+
     return &Genesis{
-        Config: &params.ChainConfig{
+        Config: params.ChainConfig{
             ChainID:             big.NewInt(45545),
             HomesteadBlock:      big.NewInt(0),
             EIP150Block:         big.NewInt(0),
@@ -544,7 +551,7 @@ func DefaultCustomPoWGenesisBlock() *Genesis {
         Coinbase:   common.Address{},
         Alloc: GenesisAlloc{
             common.HexToAddress("0x144a2763e425C80b88A31C2aE398F4e51C79A449"): {
-                Balance: new(big.Int).SetString("105000000000000000000000000", 10),
+                Balance: balance,
             },
         },
     }
