@@ -446,10 +446,10 @@ func (g *Genesis) MustCommit(db ethdb.Database) *types.Block {
 func DefaultGenesisBlock() *Genesis {
 	return &Genesis{
 		Config:     params.MainnetChainConfig,
-		Nonce:      66,
-		ExtraData:  hexutil.MustDecode("0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa"),
-		GasLimit:   5000,
-		Difficulty: big.NewInt(17179869184),
+		Nonce:      0x0000000000000042,
+		ExtraData:  hexutil.MustDecode("0xe5175d0427e765d3333648f98e72c1439d633100ef7d3558eb517a59023f41ea"),
+        GasLimit:   0x8000000,                // From "gasLimit": "0x8000000"
+        Difficulty: big.NewInt(0x10000),      // From "difficulty": "0x10000"
 		Alloc:      decodePrealloc(mainnetAllocData),
 	}
 }
