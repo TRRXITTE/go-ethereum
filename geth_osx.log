@@ -1,0 +1,291 @@
+INFO [05-03|21:59:34.868] Maximum peer count                       ETH=50 LES=0 total=50
+DEBUG[05-03|21:59:34.870] FS scan times                            list="35.542µs" set=458ns diff=750ns
+DEBUG[05-03|21:59:34.870] FS scan times                            list="27.083µs" set=83ns  diff=167ns
+TRACE[05-03|21:59:34.870] Started watching keystore folder         path=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/keystore
+DEBUG[05-03|21:59:34.871] Sanitizing Go's GC trigger               percent=100
+INFO [05-03|21:59:34.871] Set global gas cap                       cap=50,000,000
+INFO [05-03|21:59:34.871] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [05-03|21:59:34.871] Allocated cache and file handles         database=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/chaindata cache=512.00MiB handles=5120
+DEBUG[05-03|21:59:34.922] Chain freezer table opened               database=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/chaindata/ancient/chain table=headers items=0 size=0.00B
+DEBUG[05-03|21:59:34.926] Chain freezer table opened               database=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/chaindata/ancient/chain table=hashes  items=0 size=0.00B
+DEBUG[05-03|21:59:34.931] Chain freezer table opened               database=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/chaindata/ancient/chain table=bodies  items=0 size=0.00B
+DEBUG[05-03|21:59:34.944] Chain freezer table opened               database=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/chaindata/ancient/chain table=receipts items=0 size=0.00B
+DEBUG[05-03|21:59:34.949] Chain freezer table opened               database=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/chaindata/ancient/chain table=diffs    items=0 size=0.00B
+INFO [05-03|21:59:34.949] Opened ancient database                  database=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/chaindata/ancient/chain readonly=false
+DEBUG[05-03|21:59:34.949] Current full block not old enough        number=6060 hash=bc1452..edf70c delay=90000
+INFO [05-03|21:59:34.950]  
+INFO [05-03|21:59:34.950] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-03|21:59:34.950] Chain ID:  45545 (unknown) 
+INFO [05-03|21:59:34.950] Consensus: Ethash (proof-of-work) 
+INFO [05-03|21:59:34.950]  
+INFO [05-03|21:59:34.950] Pre-Merge hard forks: 
+INFO [05-03|21:59:34.950]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [05-03|21:59:34.950]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [05-03|21:59:34.950]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-03|21:59:34.950]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [05-03|21:59:34.950]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [05-03|21:59:34.950]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [05-03|21:59:34.950]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [05-03|21:59:34.950]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [05-03|21:59:34.950]  - Berlin:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [05-03|21:59:34.950]  - London:                      0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [05-03|21:59:34.950]  
+INFO [05-03|21:59:34.950] The Merge is not yet available for this network! 
+INFO [05-03|21:59:34.950]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [05-03|21:59:34.950] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [05-03|21:59:34.950]  
+INFO [05-03|21:59:34.950] Disk storage enabled for ethash caches   dir=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/ethash count=3
+INFO [05-03|21:59:34.950] Disk storage enabled for ethash DAGs     dir=/Users/traaitt/Library/Ethash count=2
+INFO [05-03|21:59:34.950] Initialising Ethereum protocol           network=45545 dbversion=8
+INFO [05-03|21:59:34.952] Loaded most recent local header          number=6060 hash=bc1452..edf70c td=3,734,357,583 age=7s
+INFO [05-03|21:59:34.952] Loaded most recent local full block      number=6060 hash=bc1452..edf70c td=3,734,357,583 age=7s
+INFO [05-03|21:59:34.952] Loaded most recent local fast block      number=6060 hash=bc1452..edf70c td=3,734,357,583 age=7s
+DEBUG[05-03|21:59:34.954] Reinjecting stale transactions           count=0
+INFO [05-03|21:59:34.954] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-03|21:59:34.955] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [05-03|21:59:34.955] Switch sync mode from snap sync to full sync 
+INFO [05-03|21:59:34.955] Gasprice oracle is ignoring threshold set threshold=2
+WARN [05-03|21:59:34.955] Engine API enabled                       protocol=eth
+WARN [05-03|21:59:34.955] Engine API started but chain not configured for merge yet 
+INFO [05-03|21:59:34.955] Starting peer-to-peer node               instance=Geth/v1.10.26-stable-e5eb32ac/darwin-arm64/go1.21.6
+DEBUG[05-03|21:59:34.980] TCP listener up                          addr=[::]:24000
+INFO [05-03|21:59:34.980] Mapped network port                      proto=tcp extport=24000 intport=24000 interface=ExtIP(46.114.202.113)
+DEBUG[05-03|21:59:34.980] UDP listener up                          addr=[::]:24000
+INFO [05-03|21:59:34.980] Mapped network port                      proto=udp extport=24000 intport=24000 interface=ExtIP(46.114.202.113)
+TRACE[05-03|21:59:34.981] Found seed node in database              id=9c0e28c27078c6f2 addr=34.159.95.162:24001 age=44m44.981441s
+INFO [05-03|21:59:34.982] New local node record                    seq=1,746,279,589,611 id=44d03b7aa1010c24 ip=46.114.202.113 udp=24000 tcp=24000
+TRACE[05-03|21:59:34.986] Found seed node in database              id=dff535ce86a87425 addr=34.142.48.190:24001 age=2.986223s
+TRACE[05-03|21:59:34.986] Found seed node in database              id=dff535ce86a87425 addr=34.142.48.190:24001 age=2.986237s
+TRACE[05-03|21:59:34.986] Found seed node in database              id=9c0e28c27078c6f2 addr=34.159.95.162:24001 age=44m44.986264s
+INFO [05-03|21:59:34.986] Started P2P networking                   self=enode://3fdaebbb9a61966c91fabfc581c1ef0be609ae5ad60ecb5d0f6e5003007b28ad825c26d0cabd547eb3dd06dfa8c200523b959efa57bae5d06b00461b6f0bc1f1@46.114.202.113:24000
+TRACE[05-03|21:59:34.986] Discarding dial candidate                id=9c0e28c27078c6f2 ip=34.159.95.162  reason="node does not provide TCP port"
+TRACE[05-03|21:59:34.986] Starting p2p dial                        id=dff535ce86a87425 ip=34.142.48.190  flag=dyndial
+DEBUG[05-03|21:59:34.986] IPCs registered                          namespaces=admin,debug,web3,eth,txpool,personal,ethash,miner,net,engine
+TRACE[05-03|21:59:34.986] >> FINDNODE/v4                           id=dff535ce86a87425 addr=34.142.48.190:24001 err=nil
+TRACE[05-03|21:59:34.987] >> PING/v4                               id=9c0e28c27078c6f2 addr=34.159.95.162:24001 err=nil
+TRACE[05-03|21:59:34.987] Found seed node in database              id=9c0e28c27078c6f2 addr=34.159.95.162:24001 age=44m44.987203s
+TRACE[05-03|21:59:34.990] Found seed node in database              id=dff535ce86a87425 addr=34.142.48.190:24001 age=2.990639s
+TRACE[05-03|21:59:34.990] Found seed node in database              id=dff535ce86a87425 addr=34.142.48.190:24001 age=2.990646s
+TRACE[05-03|21:59:34.990] Found seed node in database              id=9c0e28c27078c6f2 addr=34.159.95.162:24001 age=44m44.990654s
+INFO [05-03|21:59:34.990] IPC endpoint opened                      url=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth.ipc
+INFO [05-03|21:59:34.990] Loaded JWT secret file                   path=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/jwtsecret crc32=0x2d5d19d0
+TRACE[05-03|21:59:34.991] >> PING/v4                               id=9c0e28c27078c6f2 addr=34.159.95.162:24001 err=nil
+TRACE[05-03|21:59:34.991] >> FINDNODE/v4                           id=dff535ce86a87425 addr=34.142.48.190:24001 err=nil
+DEBUG[05-03|21:59:34.994] Allowed origin(s) for WS RPC interface [localhost] 
+INFO [05-03|21:59:34.994] HTTP server started                      endpoint=127.0.0.1:2340 auth=false prefix= cors= vhosts=localhost
+INFO [05-03|21:59:34.995] WebSocket enabled                        url=ws://127.0.0.1:8552
+INFO [05-03|21:59:34.995] HTTP server started                      endpoint=127.0.0.1:8552 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [05-03|21:59:34.995] Transaction pool price threshold updated price=0
+INFO [05-03|21:59:34.995] Updated mining threads                   threads=8
+INFO [05-03|21:59:34.995] Transaction pool price threshold updated price=1,000,000,000
+INFO [05-03|21:59:34.995] Commit new sealing work                  number=6061 sealhash=bfb047..e6b19f uncles=0 txs=0 gas=0 fees=0 elapsed="84.875µs"
+INFO [05-03|21:59:34.995] Commit new sealing work                  number=6061 sealhash=bfb047..e6b19f uncles=0 txs=0 gas=0 fees=0 elapsed="123.333µs"
+TRACE[05-03|21:59:34.995] Requiring new ethash dataset             epoch=0
+TRACE[05-03|21:59:34.995] Requiring new future ethash dataset      epoch=1
+DEBUG[05-03|21:59:34.995] Loaded old ethash dataset from disk      epoch=0
+TRACE[05-03|21:59:34.995] Started ethash search for new nonces     miner=3 seed=2,178,287,946,953,353,240
+TRACE[05-03|21:59:34.995] Started ethash search for new nonces     miner=2 seed=4,330,274,516,336,078,857
+TRACE[05-03|21:59:34.995] Started ethash search for new nonces     miner=0 seed=2,160,952,283,929,126,463
+TRACE[05-03|21:59:34.995] Started ethash search for new nonces     miner=1 seed=4,699,874,204,422,747,367
+TRACE[05-03|21:59:34.995] Started ethash search for new nonces     miner=4 seed=5,626,823,508,591,079,839
+TRACE[05-03|21:59:34.995] Started ethash search for new nonces     miner=5 seed=8,920,091,463,153,684,612
+DEBUG[05-03|21:59:34.995] Loaded old ethash dataset from disk      epoch=1
+TRACE[05-03|21:59:34.996] Started ethash search for new nonces     miner=6 seed=8,315,931,031,926,162,805
+TRACE[05-03|21:59:34.996] Started ethash search for new nonces     miner=7 seed=5,376,652,724,903,467,526
+TRACE[05-03|21:59:35.052] << PONG/v4                               id=44d03b7aa1010c24 addr=34.159.95.162:24001 err="unsolicited reply"
+TRACE[05-03|21:59:35.054] << PONG/v4                               id=44d03b7aa1010c24 addr=34.159.95.162:24001 err="unsolicited reply"
+TRACE[05-03|21:59:35.069] << NEIGHBORS/v4                          id=dff535ce86a87425 addr=34.142.48.190:24001 err=nil
+TRACE[05-03|21:59:35.070] << NEIGHBORS/v4                          id=dff535ce86a87425 addr=34.142.48.190:24001 err=nil
+DEBUG[05-03|21:59:35.151] Adding p2p peer                          peercount=1 id=dff535ce86a87425 conn=dyndial addr=34.142.48.190:24001 name=Geth/v1.10.26-stable...
+TRACE[05-03|21:59:35.151] Starting protocol eth/67                 id=dff535ce86a87425 conn=dyndial
+TRACE[05-03|21:59:35.151] Starting protocol snap/1                 id=dff535ce86a87425 conn=dyndial
+DEBUG[05-03|21:59:35.224] Ethereum peer connected                  id=dff535ce86a87425 conn=dyndial name=Geth/v1.10.26-stable...
+TRACE[05-03|21:59:35.224] Registering sync peer                    peer=dff535ce
+TRACE[05-03|21:59:35.460] << FINDNODE/v4                           id=dff535ce86a87425 addr=34.142.48.190:24001 err=nil
+TRACE[05-03|21:59:35.461] >> NEIGHBORS/v4                          id=dff535ce86a87425 addr=34.142.48.190:24001 err=nil
+TRACE[05-03|21:59:35.487] Discarding dial candidate                id=44d03b7aa1010c24 ip=46.114.202.113 reason="is self"
+INFO [05-03|21:59:35.754] Got interrupt, shutting down... 
+DEBUG[05-03|21:59:35.754] RPC server shutting down 
+WARN [05-03|21:59:35.754] HTTP server graceful shutdown timed out 
+INFO [05-03|21:59:35.754] HTTP server stopped                      endpoint=127.0.0.1:2340
+DEBUG[05-03|21:59:35.754] RPC server shutting down 
+DEBUG[05-03|21:59:35.754] RPC server shutting down 
+WARN [05-03|21:59:35.754] HTTP server graceful shutdown timed out 
+INFO [05-03|21:59:35.754] HTTP server stopped                      endpoint=127.0.0.1:8552
+DEBUG[05-03|21:59:35.754] RPC server shutting down 
+INFO [05-03|21:59:35.754] IPC endpoint closed                      url=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth.ipc
+DEBUG[05-03|21:59:35.754] RPC server shutting down 
+DEBUG[05-03|21:59:35.754] RPC connection read error                err=EOF
+DEBUG[05-03|21:59:35.754] Message handling failed in `eth`         id=dff535ce86a87425 conn=dyndial err=EOF
+DEBUG[05-03|21:59:35.754] Removing Ethereum peer                   peer=dff535ce snap=true
+TRACE[05-03|21:59:35.754] Unregistering sync peer                  peer=dff535ce
+DEBUG[05-03|21:59:35.754] Message handling failed in `snap`        peer=dff535ce err=EOF
+INFO [05-03|21:59:35.754] Ethereum protocol stopped 
+INFO [05-03|21:59:35.754] Transaction pool stopped 
+DEBUG[05-03|21:59:35.754] Removing p2p peer                        peercount=0 id=dff535ce86a87425 duration=603.041ms req=false err="client quitting"
+TRACE[05-03|21:59:35.754] Ethash nonce search aborted              miner=6 attempts=60369
+TRACE[05-03|21:59:35.754] Ethash nonce search aborted              miner=3 attempts=60945
+TRACE[05-03|21:59:35.754] Ethash nonce search aborted              miner=7 attempts=61833
+TRACE[05-03|21:59:35.754] Ethash nonce search aborted              miner=0 attempts=62058
+TRACE[05-03|21:59:35.754] Ethash nonce search aborted              miner=1 attempts=61776
+TRACE[05-03|21:59:35.754] Ethash nonce search aborted              miner=4 attempts=61953
+TRACE[05-03|21:59:35.755] Ethash nonce search aborted              miner=5 attempts=58515
+TRACE[05-03|21:59:35.754] Ethash nonce search aborted              miner=2 attempts=62176
+DEBUG[05-03|21:59:35.755] Journalled generator progress            progress=done
+DEBUG[05-03|21:59:35.755] Journalled disk layer                    root=a5044f..a12c99
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=014ed4..1ebe4c parent=a5044f..a12c99
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=137a91..8fab10 parent=014ed4..1ebe4c
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=e81623..3b3efa parent=137a91..8fab10
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=fb7695..70c37e parent=e81623..3b3efa
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=d31d9e..c8f226 parent=fb7695..70c37e
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=098bf9..c7ee2b parent=d31d9e..c8f226
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=26d407..216e0d parent=098bf9..c7ee2b
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=90477a..c68169 parent=26d407..216e0d
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=e17260..fc1079 parent=90477a..c68169
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=132487..f05f84 parent=e17260..fc1079
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=399e42..9f7db4 parent=132487..f05f84
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=4572e9..fdf723 parent=399e42..9f7db4
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=a91b79..e26604 parent=4572e9..fdf723
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=931174..423650 parent=a91b79..e26604
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=59d43c..600333 parent=931174..423650
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=d700c5..76f2a3 parent=59d43c..600333
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=0f7855..d268ef parent=d700c5..76f2a3
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=d7cca7..9eb420 parent=0f7855..d268ef
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=651afa..b2c0f4 parent=d7cca7..9eb420
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=481c72..b4078d parent=651afa..b2c0f4
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=059bf5..6ce29d parent=481c72..b4078d
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=7d4bbd..3aa697 parent=059bf5..6ce29d
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=55294f..ecd5d6 parent=7d4bbd..3aa697
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=f0e64b..b28031 parent=55294f..ecd5d6
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=465c3b..028550 parent=f0e64b..b28031
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=d976ce..5e8372 parent=465c3b..028550
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=6cee25..88e616 parent=d976ce..5e8372
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=0343bf..fbfee4 parent=6cee25..88e616
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=a24ee7..630d55 parent=0343bf..fbfee4
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=47980d..a65531 parent=a24ee7..630d55
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=a9acfb..d29e1f parent=47980d..a65531
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=29a7ea..155641 parent=a9acfb..d29e1f
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=a1715a..9549b6 parent=29a7ea..155641
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=49278d..d0a801 parent=a1715a..9549b6
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=c1bc43..141559 parent=49278d..d0a801
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=76d513..197408 parent=c1bc43..141559
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=7b2622..e1c067 parent=76d513..197408
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=6988c2..b6e425 parent=7b2622..e1c067
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=83dfeb..4a6f08 parent=6988c2..b6e425
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=886be1..c61f9b parent=83dfeb..4a6f08
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=67284f..aa4dfd parent=886be1..c61f9b
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=d1f172..d6ec7e parent=67284f..aa4dfd
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=2d95ce..7cea7e parent=d1f172..d6ec7e
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=711b76..080587 parent=2d95ce..7cea7e
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=5e8d46..3437d2 parent=711b76..080587
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=ed8387..6ad803 parent=5e8d46..3437d2
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=2ef95c..f4a152 parent=ed8387..6ad803
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=352741..429bdd parent=2ef95c..f4a152
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=923b19..de803d parent=352741..429bdd
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=41c5cd..05efff parent=923b19..de803d
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=9e5eb9..1da0fe parent=41c5cd..05efff
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=8fdcc1..6a2eed parent=9e5eb9..1da0fe
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=24e76e..c07344 parent=8fdcc1..6a2eed
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=c9bd50..7c376e parent=24e76e..c07344
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=b44f22..4efda2 parent=c9bd50..7c376e
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=4fd697..57fe74 parent=b44f22..4efda2
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=283ca7..36c948 parent=4fd697..57fe74
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=f19ccf..a3c822 parent=283ca7..36c948
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=12473a..dbdbec parent=f19ccf..a3c822
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=b9c7ee..86e26e parent=12473a..dbdbec
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=15cb42..69e6c9 parent=b9c7ee..86e26e
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=be504c..1ac481 parent=15cb42..69e6c9
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=45b78a..4a699a parent=be504c..1ac481
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=2a0807..4ed4ec parent=45b78a..4a699a
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=58c15c..d7f4c5 parent=2a0807..4ed4ec
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=a84170..858005 parent=58c15c..d7f4c5
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=474e2c..5a0c54 parent=a84170..858005
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=be2a29..a03344 parent=474e2c..5a0c54
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=f6f296..97cb0b parent=be2a29..a03344
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=f828c0..b238d0 parent=f6f296..97cb0b
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=d92826..355edb parent=f828c0..b238d0
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=68d5eb..3acc19 parent=d92826..355edb
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=a056be..157112 parent=68d5eb..3acc19
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=7df038..4ffcc9 parent=a056be..157112
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=59b0fb..f8c3f3 parent=7df038..4ffcc9
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=3a3f67..5711bf parent=59b0fb..f8c3f3
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=cdd51e..c86648 parent=3a3f67..5711bf
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=148d52..2160e4 parent=cdd51e..c86648
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=d92915..2e8beb parent=148d52..2160e4
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=dd19b7..df380f parent=d92915..2e8beb
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=2cd6f5..4dd8b4 parent=dd19b7..df380f
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=c10a73..e13cee parent=2cd6f5..4dd8b4
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=e4d309..1a07d6 parent=c10a73..e13cee
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=6a5bf3..fcc299 parent=e4d309..1a07d6
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=b2bbfa..411980 parent=6a5bf3..fcc299
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=108003..cd783d parent=b2bbfa..411980
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=52e3b4..0fae69 parent=108003..cd783d
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=41b7c1..1a20e0 parent=52e3b4..0fae69
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=147f9a..662ae4 parent=41b7c1..1a20e0
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=f4be32..9d42c6 parent=147f9a..662ae4
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=33cd08..0eeba1 parent=f4be32..9d42c6
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=b6637c..431052 parent=33cd08..0eeba1
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=0d2e11..396354 parent=b6637c..431052
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=0ae23f..477b70 parent=0d2e11..396354
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=dc0b52..65bff8 parent=0ae23f..477b70
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=67f7de..5afe71 parent=dc0b52..65bff8
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=6eeea9..91219f parent=67f7de..5afe71
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=ce3822..4e0d50 parent=6eeea9..91219f
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=2ecf90..941e42 parent=ce3822..4e0d50
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=e61e7f..3f9960 parent=2ecf90..941e42
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=9b43fc..70328a parent=e61e7f..3f9960
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=bb9c70..ae2243 parent=9b43fc..70328a
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=34fda1..31fc73 parent=bb9c70..ae2243
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=827b66..879647 parent=34fda1..31fc73
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=bc045d..2dd3ae parent=827b66..879647
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=11f657..7b545e parent=bc045d..2dd3ae
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=388440..e45354 parent=11f657..7b545e
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=a06d9e..d54b31 parent=388440..e45354
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=ec80f0..2f56fc parent=a06d9e..d54b31
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=e8a998..b67cea parent=ec80f0..2f56fc
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=b4cafc..2944c5 parent=e8a998..b67cea
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=55caed..5460a3 parent=b4cafc..2944c5
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=1cf051..bd71da parent=55caed..5460a3
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=74f74e..6bf971 parent=1cf051..bd71da
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=0abac5..4e0804 parent=74f74e..6bf971
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=b9676d..a69f14 parent=0abac5..4e0804
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=fc2112..273fa4 parent=b9676d..a69f14
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=0c6b9f..cd15f3 parent=fc2112..273fa4
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=592cb1..8d338b parent=0c6b9f..cd15f3
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=ed1e7d..886dbb parent=592cb1..8d338b
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=b25c53..03ca3d parent=ed1e7d..886dbb
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=b8c538..fd5961 parent=b25c53..03ca3d
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=198119..79ec45 parent=b8c538..fd5961
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=05ad4f..f41016 parent=198119..79ec45
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=903dac..33bb89 parent=05ad4f..f41016
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=3c6a5a..5f2907 parent=903dac..33bb89
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=ecded3..eac502 parent=3c6a5a..5f2907
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=2af3f5..9b15d1 parent=ecded3..eac502
+DEBUG[05-03|21:59:35.755] Journalled diff layer                    root=15a811..f9978e parent=2af3f5..9b15d1
+INFO [05-03|21:59:35.755] Writing cached state to disk             block=6060 hash=bc1452..edf70c root=15a811..f9978e
+INFO [05-03|21:59:35.755] Persisted trie from memory database      nodes=0 size=0.00B time="1.583µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-03|21:59:35.755] Writing cached state to disk             block=6059 hash=44b58a..c11952 root=2af3f5..9b15d1
+INFO [05-03|21:59:35.755] Persisted trie from memory database      nodes=0 size=0.00B time=292ns     gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-03|21:59:35.755] Writing cached state to disk             block=5933 hash=03ca5b..9599f2 root=137a91..8fab10
+INFO [05-03|21:59:35.755] Persisted trie from memory database      nodes=0 size=0.00B time=208ns     gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-03|21:59:35.755] Writing snapshot state to disk           root=a5044f..a12c99
+INFO [05-03|21:59:35.755] Persisted trie from memory database      nodes=0 size=0.00B time=209ns     gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-03|21:59:35.755] Writing clean trie cache to disk         path=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/triecache threads=10
+INFO [05-03|21:59:35.757] Persisted the clean trie cache           path=/Users/traaitt/ethereum-repos/go-ethereum/trrxitte/geth/triecache elapsed=1.726ms
+INFO [05-03|21:59:35.757] Blockchain stopped 
+TRACE[05-03|21:59:35.757] Ethash remote sealer is exiting 
+DEBUG[05-03|21:59:35.757] Read error                               err="accept tcp [::]:24000: use of closed network connection"
+DEBUG[05-03|21:59:35.757] Deleting port mapping                    proto=tcp extport=24000 intport=24000 interface=ExtIP(46.114.202.113)
+DEBUG[05-03|21:59:35.757] Deleting port mapping                    proto=udp extport=24000 intport=24000 interface=ExtIP(46.114.202.113)
+TRACE[05-03|21:59:35.757] P2P networking is spinning down 
+DEBUG[05-03|21:59:35.757] UDP read error                           err="read udp [::]:24000: use of closed network connection"
+TRACE[05-03|21:59:35.988] >> FINDNODE/v4                           id=9c0e28c27078c6f2 addr=34.159.95.162:24001 err="write udp [::]:24000->34.159.95.162:24001: use of closed network connection"
+TRACE[05-03|21:59:35.992] >> FINDNODE/v4                           id=9c0e28c27078c6f2 addr=34.159.95.162:24001 err="write udp [::]:24000->34.159.95.162:24001: use of closed network connection"
+TRACE[05-03|21:59:35.994] >> FINDNODE/v4                           id=dff535ce86a87425 addr=34.142.48.190:24001 err="write udp [::]:24000->34.142.48.190:24001: use of closed network connection"
+TRACE[05-03|21:59:35.994] >> PING/v4                               id=9c0e28c27078c6f2 addr=34.159.95.162:24001 err="write udp [::]:24000->34.159.95.162:24001: use of closed network connection"
+TRACE[05-03|21:59:36.496] >> FINDNODE/v4                           id=9c0e28c27078c6f2 addr=34.159.95.162:24001 err="write udp [::]:24000->34.159.95.162:24001: use of closed network connection"
+TRACE[05-03|21:59:36.498] >> FINDNODE/v4                           id=dff535ce86a87425 addr=34.142.48.190:24001 err="write udp [::]:24000->34.142.48.190:24001: use of closed network connection"
+TRACE[05-03|21:59:36.498] >> PING/v4                               id=9c0e28c27078c6f2 addr=34.159.95.162:24001 err="write udp [::]:24000->34.159.95.162:24001: use of closed network connection"
+WARN [05-03|21:59:36.518] Already shutting down, interrupt more to panic. times=9
+WARN [05-03|21:59:36.785] Already shutting down, interrupt more to panic. times=8
+TRACE[05-03|21:59:37.000] >> FINDNODE/v4                           id=9c0e28c27078c6f2 addr=34.159.95.162:24001 err="write udp [::]:24000->34.159.95.162:24001: use of closed network connection"
